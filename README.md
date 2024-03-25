@@ -78,9 +78,12 @@ Nesse passo começamos a montar as Dimensões e a tabela Fato já carregando o r
 > [JOB](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Job)
 
 ### 3. **Documentação** 📄
-- [Modelagem Lógica](https://github.com/billyanalytics/Projeto1/blob/main/2.Extra%C3%A7%C3%A3o/2.2.Modelagem%20L%C3%B3gica/Diagrama%20_tabela_financeiro.pdf) , [Modelagem Dimensioanal](https://github.com/billyanalytics/Projeto1/tree/main/3.Transforma%C3%A7%C3%A3o/3.1.Modelagem_Dimensional)  e [Scripts](https://github.com/billyanalytics/Projeto1/tree/main/Script)
-- [Dicionários de Dados](https://github.com/billyanalytics/Projeto1/tree/main/Documenta%C3%A7%C3%A3o)
-
+#### 3.1 **Banco de dados**
+- [Modelagem Dimensioanal]()  e [Scripts]()
+- [Dicionários de Dados]()
+#### 3.2 **DW**
+- [Modelagem Dimensioanal]()  e [Scripts]()
+- [Dicionários de Dados]()
 
 ## Contribuições
 
