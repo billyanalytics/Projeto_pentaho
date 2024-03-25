@@ -1,4 +1,4 @@
-
+Esse foi o cidogo SQL usado para a exporta o banco de dados da produção para o `schema ODS` e na imagem `Criação_ods` esta a step utilizada para a transformação
 ```sql
 DROP TABLE IF EXISTS ods.bairro;
 CREATE TABLE ods.bairro AS
