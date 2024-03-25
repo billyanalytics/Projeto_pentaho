@@ -59,7 +59,7 @@ Depois de criado o banco e realizado a restauração, foi criado uma nova `Schem
 > [Extração]()
 
 ### 2.1.2 **Tratamento e Carga**
-Nesse passo começamos a montar as Dimensões e a tabela Fato já carregando o resultado para o DW. Para tornar o tratamento mais organizado e limpo montamos um JOB que também será usado para automatizar a atualização do Data Warehouse integrado com envio de um e-mail para informar que o DW foi atualizado
+Nesse passo começamos a montar as Dimensões e a tabela Fato já carregando o resultado para o DW. O DW foi modelado usando um esquema Snowflake, com tabelas de fato e dimensão projetadas para otimizar consultas analíticas. Para tornar o tratamento mais organizado e limpo montamos um JOB que também será usado para automatizar a atualização do Data Warehouse integrado com envio de um e-mail para informar que o DW foi atualizado
 
 > [Modelagem Lógica](https://github.com/billyanalytics/Projeto_SQL/blob/main/Extra%C3%A7%C3%A3o/Modelagem%20L%C3%B3gica/Diagrama%20_tabela_financeiro.pdf)
 > [Modelagem Lógica](https://github.com/billyanalytics/Projeto_SQL/blob/main/Extra%C3%A7%C3%A3o/Modelagem%20L%C3%B3gica/Diagrama%20_tabela_financeiro.pdf)
