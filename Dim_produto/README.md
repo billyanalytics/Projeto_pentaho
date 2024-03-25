@@ -1,4 +1,4 @@
-Para fazermos a dimensão produto foi feitas as seguintes importações: 
+Para fazermos a dimensão produto foi feitas as seguintes importações e na imagem as steps utilizadas
 
 TABELA PRODUTO
 ```sql
