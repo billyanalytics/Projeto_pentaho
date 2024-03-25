@@ -56,79 +56,30 @@ Para realizar a importação do dump/backup para um banco de dados relacional (S
 #### 2.1.1 **Extração**
 Depois de criado o banco e realizado a restauração, foi criado uma nova `Schemas` chamada `ODS` e feito uma cópia do `corporativo_final` para manter o banco original intacto e não trabalharmos no ambiente de produção tornando tanto o processo de ETL lento como o sistema da empresa.
      
-> [Extração]()
+> [Extração](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Extra%C3%A7%C3%A3o)
 
 ### 2.1.2 **Tratamento e Carga**
 Nesse passo começamos a montar as Dimensões e a tabela Fato já carregando o resultado para o DW. O DW foi modelado usando um esquema Snowflake, com tabelas de fato e dimensão projetadas para otimizar consultas analíticas. Para tornar o tratamento mais organizado e limpo montamos um JOB que também será usado para automatizar a atualização do Data Warehouse integrado com envio de um e-mail para informar que o DW foi atualizado
 
-> [Modelagem Lógica](https://github.com/billyanalytics/Projeto_SQL/blob/main/Extra%C3%A7%C3%A3o/Modelagem%20L%C3%B3gica/Diagrama%20_tabela_financeiro.pdf)
-> [Modelagem Lógica](https://github.com/billyanalytics/Projeto_SQL/blob/main/Extra%C3%A7%C3%A3o/Modelagem%20L%C3%B3gica/Diagrama%20_tabela_financeiro.pdf)
-> [Modelagem Lógica](https://github.com/billyanalytics/Projeto_SQL/blob/main/Extra%C3%A7%C3%A3o/Modelagem%20L%C3%B3gica/Diagrama%20_tabela_financeiro.pdf)
-> [Modelagem Lógica](https://github.com/billyanalytics/Projeto_SQL/blob/main/Extra%C3%A7%C3%A3o/Modelagem%20L%C3%B3gica/Diagrama%20_tabela_financeiro.pdf)
-> [Modelagem Lógica](https://github.com/billyanalytics/Projeto_SQL/blob/main/Extra%C3%A7%C3%A3o/Modelagem%20L%C3%B3gica/Diagrama%20_tabela_financeiro.pdf)
+> [Dimensão_fato](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Dim_fato)
+> 
+> [Dimensão_data](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Dim_data)
+> 
+> [Dimensão_produto](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Dim_produto)
+> 
+> [Dimensão_pagamento](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Dim_forma_de_pagamento)
+> 
+> [Dimensão_funcionario](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Dim_funcionario)
+> 
+> [Dimensão_vendedor](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Dim_vendedor)
+> 
+> [Dimensão_cliente](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Dim_cliente)
+> 
+> [JOB](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Job)
 
-
-
-
-
-
-
-
-### 2.3 Análise Exploratória dos Dados 🔍
-Detalhes sobre a análise exploratória, padrões identificados, tratamento de nulos, descobertas e demais observações.
-
-> [Análise Exploratoria](https://github.com/billyanalytics/Projeto_SQL/blob/main/Extra%C3%A7%C3%A3o/Analise%20Explorat%C3%B3ria/README.md)
-
-### 2.4 Limpeza Inicial 🧹
-Explicação de cada etapa da limpeza realizada, com justificativas baseadas na fase anterior de exploração.
-
-> [limpeza](https://github.com/billyanalytics/Projeto1/tree/main/2.Extra%C3%A7%C3%A3o/2.4.Limpeza)
-
-## 3. Transformação 🔄
-### 3.1 Modelagem Dimensional
-Uso do BrModelo para criar a modelagem dimensional dos dados.
-
-> [Modelagem Dimensional](https://github.com/billyanalytics/Projeto1/tree/main/3.Transforma%C3%A7%C3%A3o/3.1.Modelagem_Dimensional)
-
-### 3.2 Importação e Padronização
-Descrição do processo de importação, padronizações e nomenclaturas amigáveis para o modelo dimensional.
-
-
-> [Importação e Padronização](https://github.com/billyanalytics/Projeto1/tree/main/3.Transforma%C3%A7%C3%A3o/3.2.Importa%C3%A7%C3%A3o_e_Padroniza%C3%A7%C3%A3o)
-
-### 3.3 Aferição de Medidas 📊
-- Totais Gerais de Valor Original (Empenho)
-- Totais Gerais Pago
-- Totais Gerais a Pagar
-   - medidas acima por:
-      - Período (ano, bimestre e mês);
-      - Órgão;
-      - Item: Item Elemento, Item Categoria, Item Grupo;
-      - Modalidade: item modalidade, modalidade licitação
-        
-> [Medidas](https://github.com/billyanalytics/Projeto1/tree/main/3.Transforma%C3%A7%C3%A3o/3.3.Aferi%C3%A7%C3%A3o_de_Medidas)
-
-## 4. Load / Documentação e Apresentação 📊
-### 4.1 Dataviz
-- Importação dos Dados para a Plataforma de Dataviz (PowerBI, Tableau, etc.)
-- Apresentação dos Dados em Gráficos
-
-> [PowerBI](https://github.com/billyanalytics/Projeto1/tree/main/3.Transforma%C3%A7%C3%A3o/3.3.Aferi%C3%A7%C3%A3o_de_Medidas)
-
-### 4.2 Documentação 📄
+### 3. **Documentação** 📄
 - [Modelagem Lógica](https://github.com/billyanalytics/Projeto1/blob/main/2.Extra%C3%A7%C3%A3o/2.2.Modelagem%20L%C3%B3gica/Diagrama%20_tabela_financeiro.pdf) , [Modelagem Dimensioanal](https://github.com/billyanalytics/Projeto1/tree/main/3.Transforma%C3%A7%C3%A3o/3.1.Modelagem_Dimensional)  e [Scripts](https://github.com/billyanalytics/Projeto1/tree/main/Script)
 - [Dicionários de Dados](https://github.com/billyanalytics/Projeto1/tree/main/Documenta%C3%A7%C3%A3o)
-
-
-## 5. GitHub Repository 🐙
-Criação de um repositório no GitHub com linguagem de marcação Markdown para documentar todo o projeto.
-
-### 5.1 Estrutura de Pastas 💼
-- Extracao
-- Transformacao
-- Apresentação
-- Documentacao
-- Script
 
 
 ## Contribuições
