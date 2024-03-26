@@ -9,7 +9,7 @@
 <img src="https://dadosaocubo.com/wp-content/uploads/2021/02/ETLcomPentahoV3-1280x720.png" alt="texto alt" width="600">
 
 ## Status
-![Badge em FInalizado](https://img.shields.io/static/v1?label=STATUS&message=EM_DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge em FInalizado](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
 
 # Projeto - Unid 2 - PENTAHO - SQL - ETL -  Data Warehouse ⚙️🗜️
 
