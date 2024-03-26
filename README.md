@@ -79,11 +79,10 @@ Nesse passo começamos a montar as Dimensões e a tabela Fato já carregando o r
 
 ### 3. **Documentação** 📄
 #### 3.1 **Banco de dados**
-- [Modelagem Dimensioanal]()  e [Scripts]()
-- [Dicionários de Dados]()
+- [Modelagem Dimensioanal_BD](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/Relacional_bd.png)
+- [Modelagem Dimensioanal_ODS](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/Relacional_ods.png)
 #### 3.2 **DW**
-- [Modelagem Dimensioanal]()  e [Scripts]()
-- [Dicionários de Dados]()
+- [Modelagem Dimensioanal_DW](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/Relacional_DW.png)
 
 ## Contribuições
 
