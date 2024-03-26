@@ -61,7 +61,7 @@ Depois de criado o banco e realizado a restauração, foi criado uma nova `Schem
 ### 2.1.2 **Tratamento e Carga**
 Nesse passo começamos a montar as Dimensões e a tabela Fato já carregando o resultado para o DW. O DW foi modelado usando um esquema Snowflake, com tabelas de fato e dimensão projetadas para otimizar consultas analíticas. Para tornar o tratamento mais organizado e limpo montamos um JOB que também será usado para automatizar a atualização do Data Warehouse integrado com envio de um e-mail para informar que o DW foi atualizado
 
-> [Dimensão_fato](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Dim_fato)
+> [fat_notafiscal](https://github.com/billyanalytics/Projeto_pentaho/tree/main/fat_notafiscal)
 > 
 > [Dimensão_data](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Dim_data)
 > 
@@ -82,7 +82,7 @@ Nesse passo começamos a montar as Dimensões e a tabela Fato já carregando o r
 - [Modelagem Dimensioanal_BD](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/Relacional_bd.png)
 - [Modelagem Dimensioanal_ODS](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/Relacional_ods.png)
 #### 3.2 **DW**
-- [Modelagem Dimensioanal_DW](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/Relacional_DW.png)
+- [Modelagem Dimensioanal_DW](https://github.com/billyanalytics/Projeto_pentaho/blob/main/fat_notafiscal/fat_notafiscal.png)
 - [E-mail_de_atualização_automático](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/email.png) : Programado para o dia 26/03/24 as 11:10 🕦
 
 ## Contribuições
