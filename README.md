@@ -9,7 +9,7 @@
 <img src="https://dadosaocubo.com/wp-content/uploads/2021/02/ETLcomPentahoV3-1280x720.png" alt="texto alt" width="600">
 
 ## Status
-![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM_DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge em FInalizado](https://img.shields.io/static/v1?label=STATUS&message=EM_DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 # Projeto - Unid 2 - PENTAHO - SQL - ETL -  Data Warehouse ⚙️🗜️
 
@@ -83,6 +83,7 @@ Nesse passo começamos a montar as Dimensões e a tabela Fato já carregando o r
 - [Modelagem Dimensioanal_ODS](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/Relacional_ods.png)
 #### 3.2 **DW**
 - [Modelagem Dimensioanal_DW](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/Relacional_DW.png)
+- [E-mail_de_atualização_automático]() : Programado para o dia 26/03/24 as 11:10 🕦
 
 ## Contribuições
 
