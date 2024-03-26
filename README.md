@@ -83,7 +83,7 @@ Nesse passo começamos a montar as Dimensões e a tabela Fato já carregando o r
 - [Modelagem Dimensioanal_ODS](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/Relacional_ods.png)
 #### 3.2 **DW**
 - [Modelagem Dimensioanal_DW](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/Relacional_DW.png)
-- [E-mail_de_atualização_automático]() : Programado para o dia 26/03/24 as 11:10 🕦
+- [E-mail_de_atualização_automático](https://github.com/billyanalytics/Projeto_pentaho/blob/main/Documentacao/email.png) : Programado para o dia 26/03/24 as 11:10 🕦
 
 ## Contribuições
 
