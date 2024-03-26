@@ -1,4 +1,4 @@
-importação tabela `Nota_Fiscal` e da tabela `Item_nota_fiscal`. Na imagem as steps utilizadas para a criação da `Dim_fato`
+importação tabela `Nota_Fiscal` e da tabela `Item_nota_fiscal`. Na imagem as steps utilizadas para a criação da `fat_notafiscal`
 
 ```sql
 SELECT
