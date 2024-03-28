@@ -28,7 +28,7 @@ O próximo passo será detalhar cada etapa do projeto, desde a extração e tran
 ### 1.1 Fontes de Dados 📊
 
 - **Base:** Dados são extraídos do Banco de Dados `corporativo_final`
-> [Download](Download)
+> [Download](https://github.com/billyanalytics/Projeto_pentaho/tree/main/Banco%20de%20dados)
 
 ### 1.2 Tecnologias Utilizadas 🛠️
 - Pentaho Data Integration (PDI)
